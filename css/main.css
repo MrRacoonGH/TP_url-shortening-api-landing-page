@@ -4,6 +4,11 @@ header {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+}
+
+main {
+    background-color: #EFF1F7;
 }
 
 .info-complement {
@@ -11,11 +16,13 @@ header {
     margin: 0 auto;
     margin-top: 67px;
     text-align: center;
+    padding: 24px;
+
 }
 
 .info-complement h1 {
     font-family: "Poppins", sans-serif;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
 
 }
@@ -37,6 +44,7 @@ header {
     padding-right: 40px;
     border-radius: 28px;
     border: none;
+    cursor: pointer;
 }
 
 .short-link {
@@ -73,11 +81,61 @@ header {
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .main-menu {
     display: none;
 }
+
+.statistics {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 24px;
+
+}
+
+.card {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.card h2 {
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.card p {
+    color: #9E9AA8;
+}
+
+.boost-link {
+    background-color: #3A3054;
+    padding: 36px;
+}
+
+.boost-link h2 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.boost-link button {
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    background-color: #2BD0D0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+
+}
+
 
 @media screen and (min-width: 1440px) {
 

@@ -115,6 +115,12 @@ main {
 .boost-link {
     background-color: #3A3054;
     padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 90px;
+    padding-top: 90px ;
 }
 
 .boost-link h2 {
@@ -126,11 +132,13 @@ main {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
     background-color: #2BD0D0;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    margin-top: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 28px;
+    width: 60%;
     border: none;
     cursor: pointer;
 
